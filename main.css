@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap');
+
+body, html {
+    height: 100%;
+}
+
+.bgimg {
+    background-image: url(img/birdie-lou-cover-image.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    /* background-repeat: no-repeat; */
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* margin: auto 0; */
+    /* padding-top: 300px; */
+    /* height: 500px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* align-content: center; */
+    /* justify-content: center; */
+}
+
+.middle-below {
+    padding: 16px 0;
+
+}
+
+.master-logo {
+    max-height: 100%;
+    max-width: 100%;
+}
+.master-logo, .message, .email, .instagram {
+    /* margin: auto 0; */
+    /* padding: 10px 0; */
+}
+
+/* .bottom-left {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+} */
+
+h1, h3 {
+    font-family: 'Manrope', sans-serif;
+}
+
+p {
+    font-family: 'Crimson Pro', serif;
+}
+
+a {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+.logo {
+    width: 200px;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Instagram */
+  .fa-instagram {
+    /* background: #3B5998; */
+    /* color: white; */
+  }
+
+  i {
+      font-size: 40px;
+  }
+
+  a:visited {
+      color: black;
+  }
+
+  @media screen and (min-width: 50em) {
+
+  }
