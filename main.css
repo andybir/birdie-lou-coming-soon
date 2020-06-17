@@ -85,7 +85,7 @@ a:hover {
 .fa {
     padding: 20px;
     font-size: 30px;
-    width: 40px;
+    width: 50px;
     text-align: center;
     text-decoration: none;
   }
@@ -113,12 +113,20 @@ a:hover {
 
   @media screen and (min-width: 414px) {
       .middle {
-          width: 65%;
+          /* width: 65%; */
+      }
+
+      i {
+          /* font-size: 30px; */
       }
   }
 
   @media screen and (min-width: 375px) {
       .middle {
           width: 65%;
+      }
+
+      i {
+        font-size: 30px;
       }
   }
